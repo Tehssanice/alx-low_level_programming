@@ -1,2 +1,2 @@
-# 0x00-hello_world
-I created a preprocessor file
+# Alx-low_level_programming
+This is my first C programming task at Alx
