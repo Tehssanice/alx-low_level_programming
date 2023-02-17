@@ -1,2 +1,2 @@
-# alx-low_level_programming
-This is my first C programming repository at Alx
+# 0x00-hello_world
+I created a preprocessor file
