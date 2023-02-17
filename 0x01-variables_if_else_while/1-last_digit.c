@@ -4,6 +4,7 @@
 
 /**
  * main - This code prints the last digit of a number stored in variable n
+ * 
  * Return: 0
 */
 int main(void)
@@ -23,7 +24,7 @@ int main(void)
 	{
 		printf(" and is 0");
 	}
-	if (x < 6 && != 0)
+	if (x < 6 && x != 0)
 	{
 		printf(" and is less than 6 and not 0");
 	}
