@@ -1,8 +1,8 @@
 #include "main.h"
-
 /**
- * prints the alphabet x10 - this program prints the alphabet x10
+ * print_alphabet_x10 - this program prints the alphabet x10
  * followed by a new line
+ * Description: This program prints 10 x alphabet
  */
 
 void print_alphabet_x10(void)
@@ -11,10 +11,9 @@ void print_alphabet_x10(void)
 	int i;
 
 	i = 0;
-	
-	while(i < 10)
+	while (i < 10)
 	{
-		ch ='a';
+		ch = 'a';
 			while (ch <= 'z')
 			{
 				_putchar(ch);
