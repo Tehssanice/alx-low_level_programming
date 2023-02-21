@@ -1,18 +1,26 @@
 #include "main.h"
 
 /**
- * add - this program adds two integers
- * @num1: first integer
- * @num2: second integer
- * Return: sum
+ * prints the alphabet x10 - this program prints the alphabet x10
+ * followed by a new line
  */
 
-int add(int num1, int num2)
+void print_alphabet_x10(void)
 {
-	int sum;
+	char ch;
+	int i;
 
-	sum = num1 + num2;
-
-	return (sum);
+	i = 0;
+	
+	while (i < 10)
+	{
+		ch = 'a'
+			while (ch <= 'z')
+			{_putchar(ch);
+				ch++;
+			}
+		_putchar('\n');
+		i++;
+	}
 }
 
