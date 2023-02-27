@@ -4,7 +4,7 @@
 /**
  * reset_to_98 - Entry point
  * description: function that takes a pointer
- *
+ *@n: variable
  * Return: 0
  */
 
