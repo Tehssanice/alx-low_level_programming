@@ -3,7 +3,7 @@
 /**
  * puts2 - Entry point
  * description: prints every other character of a string
- * *str: variable
+ * @str: variable
  * Return: 0
  */
 
