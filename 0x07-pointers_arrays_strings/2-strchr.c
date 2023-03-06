@@ -2,11 +2,14 @@
 
 /**
  * _strchr - Entry point
+ *
  * description: locates a character in a string
+ *
  * @c: variable
+ *
  * @s: variable
  *
- * Return: c or NULL
+ * Return: s or NULL
  */
 
 char *_strchr(char *s, char c)
