@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * check_sqrt - Entry point
+ * check - Entry point
  * descritpion: checks for the square root
  * @a: integer
  * @b: integer
@@ -9,15 +9,13 @@
  * Return: integer
  */
 
-int check_sqrt(int a, int b)
+int check(int a, int b)
 {
 	if (a * a == b)
 		return (a);
-
-	if (a * a > 2)
+	if (a * a > b)
 		return (-1);
-
-	return (check_sqrt(a + 1, b));
+	return (check(a + 1, b));
 }
 
 /**
@@ -32,6 +30,5 @@ int _sqrt_recursion(int n)
 {
 	if (n == 0)
 		return (0);
-
-	return (check_sqrt(1, n));
+	return (check(1, n));
 }
