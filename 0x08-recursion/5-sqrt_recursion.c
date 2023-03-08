@@ -14,10 +14,10 @@ int check_sqrt(int a, int b)
 	if ((a * a) == b)
 		return (a);
 
-	if (a == a / 2)
+	if (a * a > 2)
 		return (-1);
 
-	return (check_sqrt(b, a + 1));
+	return (check_sqrt(a + 1, b));
 }
 
 /**
