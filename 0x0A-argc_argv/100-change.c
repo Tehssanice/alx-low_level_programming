@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 
 	result = 0;
 
-	if (n, 0)
+	if (n < 0)
 	{
 		printf("0\n");
 
