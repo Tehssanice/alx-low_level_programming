@@ -1,24 +1,26 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - This program prints possible combination of single digit numbers
+ * main - Entry point
+ * description: prints possible combinations of single
+ * digit numbers
+ *
  * Return: 0
  */
-int main(void)
+
+int main()
 {
-	int i;
+        int c;
 
-	for (i = '0'; i <= '9' ; i++)
-	{
-		putchar(i);
+        for(c = 0; c < 10; c++)
+        {
+                putchar('0' + c);
 
-		if (i != '9')
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
+                if(c != 9)
+                putchar(',');
+        }
 
-	putchar('\n');
-	return (0);
+        putchar('\n');
+
+        return 0;
 }
