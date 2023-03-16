@@ -1,17 +1,21 @@
 #include <stdio.h>
-#include <unistd.h>
-/**
- * main - This program prints all single digit numbers of base 10 from 0
- * Return: Always 0 (success)
-*/
-int main(void)
-{
-	int b;
+#include <math.h>
+#include <stdlib.h>
 
-	for (b = 0; b < 10; b++)
-	{
-		printf("%d", b);
-	}
-	putchar('\n');
-	return (0);
+/**
+ * main - Entry point
+ * description: prints single digits
+ *
+ * Return: 0
+ */
+
+int main()
+{
+        int c;
+
+        for (c = 0; c <= 9; c++)
+
+                printf("%d\n", c);
+
+        return 0;
 }
