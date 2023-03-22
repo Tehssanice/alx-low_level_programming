@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/** main - prints the result of simple operations
+/**
+ *main - prints the result of simple operations
  * @argc: number of arguments
  * @argv: array of pointers
  *
@@ -19,7 +20,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	
+
 	n1 = atoi(argv[1]);
 	op = argv[2];
 	n2 = atoi(argv[3]);
@@ -39,6 +40,6 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 
 	printf("%d\n", get_op_func(op)(n1, n2));
 
-	return 0;
+	return (0);
 
 }
