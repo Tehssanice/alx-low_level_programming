@@ -18,16 +18,16 @@ void print_all(const char * const format, ...)
 	{
 		switch (format[i])
 		{
-			case 'z':
-				printf("%z", va_arg(a_list, int));
+			case 'c':
+				printf("%c", va_arg(a_list, int));
 				arg = 0;
 				break;
-			case 'y':
-				printf("%y", va_arg(a_list, int));
+			case 'i':
+				printf("%i", va_arg(a_list, int));
 				arg = 0;
 				break;
-			case 'x':
-				printf("%x", va_arg(a_list, double));
+			case 'f':
+				printf("%f", va_arg(a_list, double));
 				arg = 0;
 				break;
 			case 's':
