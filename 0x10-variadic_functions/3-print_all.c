@@ -9,7 +9,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list a_list;
-  int i, arg;
+	int i, arg;
 	char *str;
 
 	va_start(a_list, format);
@@ -19,18 +19,18 @@ void print_all(const char * const format, ...)
 		switch (format[i])
 		{
 			case 'z':
-				printf("%c", va_arg(a_list, int));
+				printf("%z", va_arg(a_list, int));
 				arg = 0;
 				break;
 			case 'y':
-				printf("%i", va_arg(a_list, int));
+				printf("%y", va_arg(a_list, int));
 				arg = 0;
 				break;
 			case 'x':
-				printf("%f", va_arg(a_list, double));
+				printf("%x", va_arg(a_list, double));
 				arg = 0;
 				break;
-			case 'w':
+			case 's':
 				str = va_arg(a_list, char*);
 				if (str == NULL)
 					str = "(nil)";
