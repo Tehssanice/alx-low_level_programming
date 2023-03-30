@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node - Adds a new node at the beginning
+ * add_node - adds new node at the beginning
  *            of a list_t list.
  * @head: pointer to the head of the list_t list.
  * @str: string to be added to the list_t list.
@@ -16,7 +16,7 @@ list_t *add_node(list_t **head, const char *str)
         char *dup_str;
         int len;
 
-        new = malloc(sizeof(list_t));
+        temp = malloc(sizeof(list_t));
         if (temp == NULL)
                 return (NULL);
 
