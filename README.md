@@ -1,2 +1,2 @@
 # Alx-low_level_programming
-This is my first C programming task at Alx
+This is my first C programming tasks at Alx
